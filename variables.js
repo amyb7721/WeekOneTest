@@ -2,22 +2,23 @@
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
 //CODE HERE 
-let myName
-console.log('Amy')
+let myName = 'Amy'
+console.log(myName)
+
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
-let faveNum
-console.log('7')
+let faveNum = 7
+console.log(faveNum)
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
-let lovesCode 
-console.log('true')
+let lovesCode = true
+console.log(lovesCode)
 
 //////////////////PROBLEM 4////////////////////
 /*

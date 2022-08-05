@@ -10,8 +10,8 @@
 */
 
 //CODE HERE
-let gitDefinition
-console.log('Git is a version control system. Git helps you keep track of code changes.')
+let gitDefinition 
+console.log('Git is an open-source version control system. Git helps you keep track of code changes.')
 
 
 //////////////////PROBLEM 2////////////////////

@@ -4,10 +4,7 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-let colorCopy = faveColors.slice(0,2)
-console.log('original array')
-console.log(faveColors)
-console.log('new array')
+let colorCopy = faveColors.slice()
 console.log(colorCopy)
 
 
@@ -16,8 +13,6 @@ console.log(colorCopy)
 
 //CODE HERE                                               
 colorCopy.push('purple')
-console.log(colorCopy)
-colorCopy.push('blue')
 console.log(colorCopy)
 
 //////////////////PROBLEM 3////////////////////
@@ -29,7 +24,7 @@ console.log(colorCopy)
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-let middleNums = numbers[1, 2, 3]
+const middleNums = numbers.splice(1, 3)
  console.log(middleNums)
 
  
@@ -49,8 +44,17 @@ let middleNums = numbers[1, 2, 3]
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
+
+
+
 const answers = []
-for (let i = 0; bigOrSmallArray > 100; i++) 
-answers.push('big')
 
+for (let i = 0; i < bigOrSmallArray.length; i++) {
+  if (bigOrSmallArray[i] > 100) {
+    answers.push('big')
+  } else {
+    answers.push('small')
+  }
+}
 
+console.log(answers)
